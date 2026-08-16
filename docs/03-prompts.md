@@ -3,8 +3,6 @@
 ## System Prompt
 
 ```
-[Cole aqui seu system prompt completo]
-
 # Prompts do Agente
 
 ## System Prompt
