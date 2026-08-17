@@ -318,13 +318,6 @@ if pergunta:
                 "momento. Tente novamente em alguns instantes."
             )
 
-        except Exception as erro:
-            print("ERRO DA NORA:", erro)
-
-            resposta = (
-                "Não consegui processar sua solicitação neste "
-                "momento. Tente novamente em alguns instantes."
-            )
 
     st.session_state.mensagens.append(
         {
@@ -339,5 +332,4 @@ if pergunta:
             "content": resposta
         }
     )
-
     st.rerun()
